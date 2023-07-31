@@ -17,7 +17,6 @@ const MobileMenu = () => {
                 </MenuItem>
               );
             })}
-            ;
           </MenuList>
         </Menu>
       </Show>
