@@ -8,6 +8,7 @@ import NavLinks from "./NavLinks";
 import PatternsArea from "./PatternsArea";
 import SectionTitle from "./SectionTitle";
 import TestimonialsArea from "./TestimonialsArea";
+import MobileMenu from "./MobileMenu";
 
 export {
   TestimonialsArea,
@@ -20,4 +21,5 @@ export {
   AboutUs,
   FooterArea,
   ContactForm,
+  MobileMenu,
 };
