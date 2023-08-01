@@ -5,7 +5,8 @@ import { NavLinks, MobileMenu } from "./index";
 const HeaderArea = () => {
   return (
     <Flex
-      w="90vw"
+      w="80vw"
+      h="20vh"
       p={2}
       justifyContent={{ base: "center", md: "space-between" }}
     >
