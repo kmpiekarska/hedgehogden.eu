@@ -20,7 +20,12 @@ const MobileMenu = () => {
                 const linkHref = menuLinks[index];
 
                 return (
-                  <MenuItem as="a" href={linkHref} key={menuItem}>
+                  <MenuItem
+                    bgColor="white"
+                    as="a"
+                    href={linkHref}
+                    key={menuItem}
+                  >
                     {menuItem}
                   </MenuItem>
                 );

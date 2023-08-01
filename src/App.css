@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=Merienda&display=swap");
 
 #root {
   position: relative;
@@ -10,14 +10,25 @@
   margin: 0;
   padding: 1rem;
   text-align: center;
+  color: #2d3748; /* gray.700*/
 }
 a {
+  color: #2d3748;
   text-decoration: none;
 }
-Link {
-  color: blue;
-}
-a :hover {
-  color: orange;
+
+a:hover {
+  color: #ed8936; /*orange.400*/
   background-color: white;
+}
+a:active {
+  background-color: white;
+}
+.pageTitle {
+  position: absolute;
+  color: white;
+  font-family: "Merienda", serif;
+  font-style: italic;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px rgb(112, 111, 111);
 }

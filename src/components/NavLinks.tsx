@@ -16,6 +16,8 @@ const NavLinks = () => {
                 padding={5}
                 href={linkHref}
                 key={menuItem}
+                fontSize={{ sm: "1rem", md: "1rem", lg: "1.2rem" }}
+                bgColor="white"
               >
                 {menuItem}
               </Link>
