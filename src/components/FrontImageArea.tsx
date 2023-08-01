@@ -30,7 +30,7 @@ const FrontImageArea = () => {
           mt="-5"
           src={FrontImage}
           alt="Rudolphine the Reindeer "
-          boxShadow="2xl"
+          boxShadow="lg"
         />
       </Box>
     </Hide>
