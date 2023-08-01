@@ -8,12 +8,11 @@ import {
   TestimonialsArea,
   ContactForm,
   FooterArea,
-  Logo,
 } from "./components";
 
 function App() {
   return (
-    <Flex direction="column" align="center" marginY={2}>
+    <Flex direction="column" alignItems="center" marginY={1}>
       <HeaderArea />
       <FrontImageArea />
       <PatternsArea />
