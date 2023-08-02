@@ -26,7 +26,7 @@ const FrontImageArea = () => {
         <Image
           borderRadius="md"
           fontFamily="Alex Brush"
-          maxHeight="78vh"
+          maxHeight="90vh"
           mt="-5"
           src={FrontImage}
           alt="Rudolphine the Reindeer "

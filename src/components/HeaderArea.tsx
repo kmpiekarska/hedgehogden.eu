@@ -7,6 +7,7 @@ const HeaderArea = () => {
     <Flex
       w="80vw"
       p={2}
+      mt={0}
       justifyContent={{ base: "center", md: "space-between" }}
     >
       <Logo />

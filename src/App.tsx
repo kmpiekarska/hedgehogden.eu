@@ -16,7 +16,7 @@ function App() {
     <Flex direction="column" alignItems="center" marginY={1}>
       <HeaderArea />
       <FrontImageArea />
-      <SectionTitle>Every Pattern Has A Story Behind</SectionTitle>
+      <SectionTitle>Every Pattern Has A Story Behind...</SectionTitle>
       <PatternsArea />
       <AboutUs />
       <TestimonialsArea />
