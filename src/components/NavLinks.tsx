@@ -14,6 +14,7 @@ const NavLinks = () => {
                 as="a"
                 className="navLink"
                 padding={5}
+                mr={{ sm: "0", md: "0", lg: "20px" }}
                 href={linkHref}
                 key={menuItem}
                 fontSize={{ sm: "1rem", md: "1rem", lg: "1.2rem" }}
