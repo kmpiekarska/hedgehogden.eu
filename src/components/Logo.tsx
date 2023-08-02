@@ -3,8 +3,13 @@ import { LogoImage } from "../assets";
 
 const Logo = () => {
   return (
-    <Box borderRadius="30%" overflow="hidden" boxSize="120" mt="-5" ml="10">
-      <Image alt="HedgehogDenCrafts Logo" src={LogoImage} padding={2} />
+    <Box borderRadius="30%" overflow="hidden" boxSize="120" mt="-5">
+      <Image
+        alt="HedgehogDenCrafts Logo"
+        mt="10px"
+        src={LogoImage}
+        padding={2}
+      />
     </Box>
   );
 };

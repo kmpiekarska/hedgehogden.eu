@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: #ed8936; /*orange.400*/
+  color: rgba(224, 154, 11, 1);
   background-color: white;
 }
 a:active {
@@ -31,6 +31,12 @@ a:active {
   font-style: italic;
   font-weight: 600;
   text-shadow: 1px 1px 2px rgb(112, 111, 111);
+}
+.mobilePageTitle {
+  font-family: "Merienda", serif;
+  font-style: italic;
+  font-weight: 400;
+  color: rgba(224, 154, 11, 1);
 }
 .divider {
   text-align: center;

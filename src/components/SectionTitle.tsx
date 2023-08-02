@@ -20,7 +20,7 @@ const SectionTitle = ({ children }: Props) => {
           marginY={2}
           letterSpacing={3}
           fontStyle="italic"
-          color="orange.500"
+          color="rgba(224, 154, 11, 1)"
           textShadow="2px 2px 6px #fae5a2"
         >
           {children}
